@@ -2,7 +2,6 @@ google.charts.load('current', {'packages':['corechart', "line"]});
   google.charts.setOnLoadCallback(drawChart);
   function drawChart() {
     var data = google.visualization.arrayToDataTable([
-      fontFamily= "Quicksand ,sans-serif",
       ['Year', 'Per capita cheese consumption', '# of people died by tangled in bedsheets'],
       ['2000',  29.8,      327],
       ['2001',  30.1,       456],
@@ -20,7 +19,6 @@ var options = {
     areaOpacity: "0.1 ",
     backgroundColor: 'transparent',
     curveType: 'function',
-    fontFamily= "Quicksand ,sans-serif",
     title: 'Per capita cheese consumption -- correlates with -- Number of people who died by becoming tangled in their bedsheets',
     hAxis: {title: 'Year',  titleTextStyle: {color: 'black'}}  , 
     series:[
