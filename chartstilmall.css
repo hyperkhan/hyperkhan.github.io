@@ -11,15 +11,15 @@ body{
 }
 
 #chart_div{
-	margin-top: 500px;
-    margin-bottom: 500px;
+	margin-top: 50%;
+    margin-bottom: 50%;
     margin-right: auto;
     margin-left: auto;
 }
 
 #logo{
-	margin-top: 100%;
-    margin-bottom: 100%;
+	margin-top: 50%;
+    margin-bottom: 50%;
     margin-right: auto;
     margin-left: auto;
 }
