@@ -1,13 +1,13 @@
 .text{
 	margin: auto;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Quicksand:700', sans-serif;
     text-align:justify;
     width: 60%;
 }
 body{
 	background-color: #fff;
 	background-attachment: fixed;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Quicksand:700', sans-serif;
 }
 
 #chart_div{
