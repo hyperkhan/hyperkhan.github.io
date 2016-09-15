@@ -13,12 +13,15 @@ google.charts.load('current', {'packages':['corechart', "line"]});
       ['2007',  33.1,      741],
       ['2008',  32.7,      809],
       ['2009',  32.8,       717],
-    ]);
+    ])
+    fontName: 'Quicksand'
+    ;
 
 var options = {
     areaOpacity: "0.1 ",
     backgroundColor: 'transparent',
     curveType: 'function',
+    fontName: 'Quicksand',
     title: 'Per capita cheese consumption -- correlates with -- Number of people who died by becoming tangled in their bedsheets',
     hAxis: {title: 'Year',  titleTextStyle: {color: 'black'}}  , 
     series:[
