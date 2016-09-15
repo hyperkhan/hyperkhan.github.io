@@ -1,13 +1,13 @@
 .text{
 	margin: auto;
-	font-family: "Quicksand";
+	font-family: Quicksand;
     text-align:justify;
     width: 60%;
 }
 body{
 	background-color: #fff;
 	background-attachment: fixed;
-	font-family: Lucida Sans Unicode;
+	font-family: Quicksand;
 }
 
 #chart_div{
