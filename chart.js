@@ -30,7 +30,7 @@ var options = {
     ],
 
     vAxes:[
-      {title: 'Cheese consumed (in lbs)', ticks: [{v:28.5, f:'28.5lbs'},{v:30, f:'30lbs'},{v:31.5, f:'31.5lbs'},{v:33, f:'33lbs'}, titleTextStyle: {bold: "true"},]
+      {title: 'Cheese consumed (in lbs)', ticks: [{v:28.5, f:'28.5lbs'},{v:30, f:'30lbs'},{v:31.5, f:'31.5lbs'},{v:33, f:'33lbs'},]
   }, // Left axis
       {title: 'Bedsheet tangling', ticks: [{v:200, f:'200'},{v:400, f:'400'},{v:600, f:'600'},{v:800, f:'800'},]
   } // Right axis
