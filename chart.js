@@ -35,6 +35,6 @@ var options = {
 
  };
 
-    var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+    var chart = new google.visualization.LineChart(document.getElementById('chart_div')style.fontFamily= "Quicksand ,sans-serif";);
     chart.draw(data, options);
   }
