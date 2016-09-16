@@ -18,6 +18,13 @@ google.charts.load('current', {'packages':['corechart', "line"]});
     ;
 
 var options = {
+    selectionMode: 'multiple',
+  // Trigger tooltips
+  // on selections.
+  tooltip: {trigger: 'selection'},
+  // Group selections
+  // by x-value.
+  aggregationTarget: 'category',
     pointSize: 5,
     areaOpacity: "0.1 ",
     backgroundColor: 'transparent',
