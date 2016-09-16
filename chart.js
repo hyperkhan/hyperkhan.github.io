@@ -18,8 +18,7 @@ google.charts.load('current', {'packages':['corechart', "line"]});
     ;
 
 var options = {
-    pointSize: 20,
-    pointShape: {type: "star", sides: "7", dent: 0.2},
+    pointSize: 10,
     areaOpacity: "0.1 ",
     backgroundColor: 'transparent',
     curveType: 'function',
