@@ -18,7 +18,7 @@ google.charts.load('current', {'packages':['corechart', "line"]});
     ;
 
 var options = {
-    focusTarget: "category",
+    focusTarget: "datum",
     pointSize: 5,
     areaOpacity: "0.1 ",
     backgroundColor: 'transparent',
