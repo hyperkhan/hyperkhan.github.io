@@ -18,7 +18,7 @@ google.charts.load('current', {'packages':['corechart', "line"]});
     ;
 
 var options = {
-    pointSize: 20,
+    pointSize: 5,
     areaOpacity: "0.1 ",
     backgroundColor: 'transparent',
     curveType: 'function',
