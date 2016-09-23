@@ -40,7 +40,7 @@
     </style>
 <center><p id="name">A HYPER ISLAND STUDENT PRODUCTION.</p></center>
     <h1><center>Black Market & Illicit Trade Statistics<center></h1>
-    <h5><center>(SEK increase in U.S. Market Value since entering homepage)</center></h5>
+    <h5><center>(Increase in U.S. market value since entering homepage - in SEK.)</center></h5>
     <p id="countMusiccss">Music Piracy</p><div class="countMusic">
     </div>
     <p>Prostitution</p><div class="countProstitution">
@@ -63,7 +63,7 @@ var countMusic = 0;
 (function(){
     // do some stuff
     countMusic = countMusic + 3.404838914256722; //increase by 1
-    $(".countMusic").html(Math.round(countMusic));
+    $(".countMusic").html(Math.round(countMusic) + ":-");
 
     //if (count == 100) return;
 
