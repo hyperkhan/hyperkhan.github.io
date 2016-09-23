@@ -1,0 +1,70 @@
+<!--
+Bilal Khan 891016-0335
+ID:WEBPROG
+Index
+Win 7
+Sublime Text 2
+-->
+
+<!DOCTYPE html>
+
+<html lang = "sv">
+	<head> <!-- innehåller head-element såsom titel, länk till externa dokument såsom stilmallar och javascript -->
+		
+		<meta charset = "UTF-8">		<!--För att kunna använda t.ex. ÅÄÖ -->
+		<link rel="shortcut icon" href="bkikon.ico">		<!-- länkar till ikonbild -->
+		<link type="text/css" href="stilmall.css" rel="stylesheet" />		<!-- länkar till stilmallen -->
+		<title>B. Khan portfolio</title>		<!-- definierar titeln -->
+	    <link type="text/css" href="chartstilmallcounter.css" rel="stylesheet"/>
+	    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84295204-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+	</head>
+
+	<body>		<!-- innehåller dokumentets huvudinnehåll -->
+		<header>		<!-- innehåller eller navigeringslänkar -->
+			<a href="index.html"><img id="logo" src="bilder/bilalkhan_svart.png" alt="logotyp"></a>		<!-- Logotyp med länk till index.html -->
+			<br>		<!-- radbrytning -->
+		<nav id="mainNav">		<!-- definierar navigationslänkar -->
+			<table id="menuList" style="width:45%">		<!-- definierar en tabell -->
+				<tr>		<!-- definierar en tabellrad -->
+					<td><a class="indexlank" href="index.html">Home</a></td>
+					<td><a class="arbetenlank" href="arbeten.html">Challenges</a></td>
+					<td><a class="omlank" href="om.html">About Bilal</a></td>
+					<td><a class="kontaktlank" href="kontakt.html">Contact Me</a></td>
+				</tr>
+			</table>
+		</nav>
+		</header>
+		<hr>		<!-- horisontell linje för att skilja på navigering och resten av sidan -->
+		<br>
+  <span class ="center"> Draw stuff here! </span>
+    <canvas id="canvas" width="500" height="300"></canvas><br>    <!-- skapar canvas -->
+    <script src="uppgift6.js"></script>    <!-- definierar en extern fil med skript -->
+    <section class="colorBtnWrapper">   <!-- grupperar knapparna för stilsättning -->
+      <button class = "button buttonBlk" onclick = "changeColor('black')"></button>     <!-- skapar knapp som kallar på funktion när pekaren trycks ner  -->
+      <button class = "button buttonPnk" onclick = "changeColor('#fd9c8e')"></button>
+      <button class = "button buttonGrn" onclick = "changeColor('#7fda95')"></button>
+      <button class = "button buttonYlw" onclick = "changeColor('#f0e15c')"></button>
+      <button class = "resetButton" onclick="clearCan()"></button>
+      <br>
+      <button class = "upsizeButton" onclick = "upSize()">+</button>
+      <button class = "downsizeButton" onclick = "downSize()">-</button>
+    </section>
+  <br>
+
+		</section>
+<footer><address><br>		<!-- kontaktuppgifter -->
+    © Bilal Khan 2016 | bilal.khan@hyperisland.se
+</address></footer> 
+	</body>
+
+
