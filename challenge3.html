@@ -40,23 +40,41 @@
     </style>
 <center><p id="name">A HYPER ISLAND STUDENT PRODUCTION.</p></center>
     <h1><center>Black Market & Illicit Trade Statistics<center></h1>
-    <h5><center>(Increase in U.S. market value since entering homepage - in SEK.)</center></h5>
-    <p id="countMusiccss">Music Piracy</p><div class="countMusic">
+    <h5><center>(SEK increase in U.S. Market Value since entering homepage)</center></h5>
+
+    <br><br><center>
+    <p id="countDown"></p><div class="countDown">
+    </div></center>
+
+    <p id="countMusiccss"></p><div class="countMusic">
     </div>
-    <p>Prostitution</p><div class="countProstitution">
+    <p></p><div class="countProstitution">
     </div>     
-    <p>Movie Piracy</p><div class="countMovie">
+    <p></p><div class="countMovie">
     </div>     
-    <p>Cocaine</p><div class="countCocaine">
+    <p></p><div class="countCocaine">
     </div>     
-    <p>Marijuana</p><div class="countMarijuana">
+    <p></p><div class="countMarijuana">
     </div>     
-    <p>Illegal Gambling (80% Sports Gambling)</p><div class="countGambling">
+    <p></p><div class="countGambling">
     </div>     
-    <p>Product Counterfeiting<div class="countFakes">
-    </div></p> 
+    <p><div class="countFakes">
+    </div></p>
 
 <script type="text/javascript">
+
+var countDown = 0;
+    (function(){
+    // do some stuff
+    countDown = countDown + 1; //increase by 1
+    $(".countDown").html("Seconds passed since you arrived: " + Math.round(countDown));
+
+    //if (count == 100) return;
+
+    setTimeout(arguments.callee, 1000);
+
+
+})();
 
 var countMusic = 0; 
 
